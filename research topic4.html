@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Research</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+
+
+<body class="container_body">
+  <div class="ding">
+    <a href="https://www.pku.edu.cn/" target="_blank" ><img src="logo/use_white_all.png" width="320" height="90" float="left" style="margin-top: 55px;margin-bottom: 55px;margin-left: 25px;margin-right: 5px;"></a>
+    <img src="logo/myname.png" width="945" height="200" float="right">
+  </div>
+    
+    <hr style="height:10px;border:none;border-top:10px groove skyblue;" /> 
+    
+    <div class="menu_container">
+      <nav>
+        <ul>
+          <li style="text-align: center;"><a href="homepage.html" class="cond-a">Homepage</a></li>
+          <li style="text-align: center; background-color: rgb(255, 255, 255);border-radius: 30px;"><a href="research.html"  class="cond-this">Research</a></li>
+          <li style="text-align: center;"><a href="dataset.html" class="cond-a">Dataset</a></li>
+          <li style="text-align: center;"><a href="news.html"   class="cond-a">News</a></li>
+          <li style="text-align: center;"><a href='publications.html' class="cond-a">Publications</a></li>
+          <li style="text-align: center;"><a href="member.html" class="cond-a">Member</a> </li>
+        </ul>
+      </nav>
+    </div>
+    <div class="research_title"><br/>
+        <h1 style="font-family:Microsoft YaHei;">
+          Multi-agent Cooperative Path planning and Decision-making
+        </h1>
+    </div>
+    <div class="research_content"><font size = 5 style="font-family: Lucida Sans Unicode;"><br/>
+        1.	<b>MAPF: </b>Multi-Agent Path Finding (MAPF) is the problem of computing collision-free paths for a team of agents from their current locations to given destinations. In recent years, there has been a growing interest in MAPF. This interest is partially because real-world MAPF applications, such as warehouse management, multi-robot teams, and aircraft management, are becoming more prevalent. The performance metrics of MAPF solvers include optimality, completeness, complexity and so on. Our research focuses on the design of MAPF solvers with superior performance above. In future, we will also focus on the solution of some variants of MAPF, such as continuous time MAPF, MAPF that is not on the grid map and MAPF problems in the environment with dynamic obstacles, etc.
+        <br/>
+        <div align="center">
+          <img border="0" src="images/multi_agent_fig1.jpg" width="800" >
+        </div>
+        <br/>
+        2.	<b>MARL + Communication: </b>Methods based on manual designed rules are often far from optimal. Reinforcement learning can provide a better rule. Independent reinforcement learning (RL), in which each learner treats the others as part of its environment, can be employed to solve multi-agent problems. However, the strategies of other agents are uncertain and unstable during training, i.e., the environment becomes unstable from the perspective of any individual agent and thus it is hard for agents to learn to collaborate. Moreover, policies learned using independent RL can easily overfit the other agents’ policies. Thus, RL algorithms for multi-agent (MARL) are needed. MAPF is naturally modeled as a cooperative multi-agent system. Cooperative social environment facilities learning since agents learn not only by trial-and-error, but also through cooperation. Our research focuses on the MAPF based on MARL. Communication and perception [1][2] between agents can be useful in providing more effective strategies for collaboration. Thus, in our research, communication will be further introduced to help train and achieve better cooperation between agents.
+        <br/>
+        <div align="center">
+          <img border="0" src="images/multi_agent_fig2.jpg" width="800" >
+        </div>
+        <br/>
+        3. <b>Multi AGV Scheduling System: </b>A multi AGV scheduling system is a system that provides functions such as scheduling, path planning, collision avoidance, task management, AGV management, and for several AGVs. It can be used in intelligent logistics, intelligent warehouse and intelligent port scenarios to carry out transportation tasks instead of manual labor. Different from MAPF, for a multi AGV scheduling system, security and stability are more important than solution quality[3]. Our research focuses on the development of secure, stable and efficient multifunctional AGV scheduling systems. It is worth mentioning that a multi AGV scheduling system "Scheduler" developed by us has been successfully applied to the multi AGV project of a robot enterprise in Beijing.
+        <br/>
+        <div align="center">
+          <img border="0" src="images/multi_agent_fig3.png" width="800" >
+        </div>
+        <br/>
+      </font>
+  <br><br>
+  </div>
+
+
+
+
+
+
+
+
+  <div style="font-family: Lucida Sans Unicode;width:100%;height:400px;">
+    <h1 style="font-family:Microsoft YaHei;">
+      Reference
+    </h1>
+  
+    </br>
+    <p style="font-size: 20px; width: 1300px;line-height: 2em;text-align: justify;">
+      [1] X. Cheng, D. Duan, S. Gao, and L. Yang, “Integrated sensing and communications (isac) for vehicular communication networks (vcn),” <i>IEEE Internet of Things Journal</i> , Dec. 2022.
+    </p>
+    <p style="font-size: 20px; width: 1300px;line-height: 2em;text-align: justify;">
+      [2] P. Yang, D. Duan, C. Chen, X. Cheng, and L. Yang, “Multi-sensor multi-vehicle (msmv) localization and mobility tracking for autonomous driving,” <i>IEEE transactions on vehicular technology</i> , vol. 69, no. 12, pp.14 355-14 364, Oct. 2020.
+    </p>
+    <p style="font-size: 20px; width: 1300px;line-height: 2em;text-align: justify;">
+      [3] H. Zhang, R. Zhang, C. Chen, D. Duan, X. Cheng, and L. Yang, “A priority-based autonomous intersection management (aim) scheme for connected automated vehicles (cavs),”<i> Vehicles</i> , vol. 3, no. 3, pp. 533-544, Aug. 2021.
+    </p>
+  
+  </div>
+
+
+
+
+
+  <div class="kong_member" style="margin: auto;height: 100px;"></div>
+  <div class="kd_member" style="margin: auto;padding: 5px;">
+      <div align="center" style="margin:13px;">
+        <img src="logo/use_white_all.png" width="266" height="75" >
+      </div>
+      <br/>
+      <font size = 4 style="font-family:Lucida Sans Unicode; color: aliceblue;">&emsp;&emsp;Copyright © Peking University&nbsp;&nbsp;|&nbsp;&nbsp;Address: No.2 Science Building, Peking University, No.5 Yiheyuan Road, Haidian District, Beijing, P.R. China  </font>
+  </div>
+
+</body>
+</html>

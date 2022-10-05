@@ -1,0 +1,404 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.container_body{
+    max-width: 1300px;    
+    margin: 50px auto;
+    width: 100%;
+    min-width: 1300px;
+    
+}
+
+.container {
+    position: relative;
+    width: 100%;
+}
+ 
+.right {
+    position: absolute;
+    right: 570px;
+    width: 300px;
+    
+    background-color: #b0e0e6;
+    text-align: center;
+}
+
+.menu
+{
+	border-style:solid;
+	border-color:rgb(128, 0, 0);
+    padding: 25px;
+    width: 1250px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  background-color: rgb(128, 0, 0);
+}
+
+.pub_menu
+{
+    padding: 25px;
+    width: 1250px;
+    margin-bottom: 25px;
+    background-color: rgb(128, 0, 0);
+}
+
+.content
+{
+    width: 620px;
+    line-height: 2em;
+    text-align: justify;
+}
+
+.content_people
+{
+    width: 935px;
+    line-height: 1.7321em;
+    text-align: justify;
+    font-family: Lucida Sans Unicode;
+    float: right;
+    /* font-size: 16px; */
+}
+
+.research_topic
+{
+    text-align: center;
+}
+
+.research_topic1
+{
+    text-align: center;
+}
+
+.research_topic2
+{
+    text-align: center;
+}
+
+.research_topic3
+{
+    text-align: center;
+}
+
+.research_topic4
+{
+    text-align: center;
+}
+
+.research_title
+{
+    width: 1300px;
+    text-align: center;
+}
+
+.research_content
+{
+    width: 1300px;
+    line-height: 2em;
+    position:relative;
+    text-align: justify;
+}
+
+
+.doc {
+    width: 300px;
+}
+
+.doc-img {
+    width: 300px;
+    height: 400px;
+}
+
+.doc-img img {
+    width: 100%;
+    height: 100%;
+}
+
+.doc-text {
+    text-align: center;
+    padding: 5px 0;
+    height:60px;
+}
+
+.top-contact{
+  width: 450px;
+  height: 50px;
+  float: right;
+  font-family:"Times New Roman", Times, serif;
+  font-weight: bold;
+  
+}
+
+.cond-a {
+    color:rgb(241, 244, 248);
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+  }
+   .cond-a:hover
+  {
+    text-decoration:underline;
+  }
+  /*
+  .cond-a:active
+  {
+    color:rgb(242, 14, 14);
+  } */
+  
+  
+  .cond-this {
+    color:rgb(8, 8, 8);
+    font-size: 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Times New Roman';
+    font-weight:bold;
+  }
+  .cond-this:hover
+  {
+    color: white;
+    text-decoration:underline;
+   
+  
+  }
+  /* 
+  .cond-this:active
+  {
+    color:rgb(242, 14, 14);
+    font-weight:bold;
+  } */
+
+
+.cond-link {
+  color:rgb(243, 144, 14);
+  font-size: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: STLiti;
+  font-weight:bold;
+}
+.cond-link:hover
+{
+  color:black;
+  text-decoration:underline;
+  font-weight:bold;
+}
+.cond-link:active
+{
+  color:rgb(7, 112, 45);
+  font-weight:bold;
+}
+
+.cond-fu {
+  color:rgb(248, 242, 243);
+  font-size: 25px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: 'Times New Roman';
+  font-weight:bold;
+  
+}
+.cond-fu:hover
+{
+  
+  color:rgb(46, 215, 245);
+  text-decoration:underline;
+}
+.cond-fu:active
+{
+  color:rgba(228, 51, 187, 0.893);
+
+}
+
+.cond-re
+{
+  color:black;
+  font-size: 24px;
+  font-family: Microsoft YaHei;
+  font-weight: bolder;
+  text-decoration:none;
+
+}
+.cond-re:hover
+{
+  color:rgb(160, 0, 0);
+  text-decoration:underline;
+}
+.cond-re:active
+{
+  color:rgb(255, 0, 102);
+ 
+}
+
+
+.phd{
+  height: 600px;
+  width: 100%;
+  margin: 1px;
+ 
+  
+}
+
+.kd_member{
+  height: 152px;
+  width: 100%;
+  background:rgb(48, 42, 41);
+  margin-top: 2000px;
+  
+}
+
+.kong_member{
+  width: 100%;
+  
+}
+
+.kd{
+  height: 152px;
+  width: 100%;
+  background:rgb(48, 42, 41);
+  margin-top: 2000px;
+  
+}
+
+.kong{
+  width: 100%;
+  height: 2000px;
+  
+}
+
+.teacher
+{
+  width: 1300px;
+  height: 1770px;
+
+ 
+}
+
+.one_teacher_1
+{
+  width: 1300px;
+  height: 600px;
+ 
+ 
+}
+
+.one_teacher_2
+{
+  width: 1300px;
+  height: 500px;
+  
+ 
+}
+
+.one_teacher_3
+{
+  width: 1300px;
+  height: 470px;
+  
+ 
+}
+
+
+.assistant
+{
+  width: 1300px;
+  height: 650px;
+  
+}
+
+.phd
+{
+  width: 1300px;
+  height: 1620px;
+  
+}
+
+.master
+{
+  width: 1300px;
+  height: 670px;
+  
+}
+
+.undergraduate
+{
+   width: 1300px;
+  height: 1140px;
+  
+}
+
+.former_members
+{ width: 1300px;
+  height: 550px;
+}
+
+.ding
+{
+  width: 100%;
+  height: 200px;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  
+  background-color: rgb(128, 0, 0);
+}
+
+/*从这开始是导航栏*/
+
+.menu_container {
+  width: 100%;
+  height: 90px;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  margin: 0px;
+  padding: 0px;
+  /* background-color: aquamarine; */
+} 
+
+nav {
+  background: rgb(48, 42, 41);
+  border-radius: 40px;
+  padding: 10px;
+  box-shadow: 0 25px 20px -20px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  height: 60px;
+  margin: 0px;
+}
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  padding: 13px 35px;
+  /* margin: 10px; */
+  margin-left: 18px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #777;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition: color 0.2s;
+  width: 9.2%;
+}
+nav ul li::after {
+  content: '';
+  background: rgb(107, 106, 106);
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  opacity: 0;
+  transition: top 0.5s,opacity 0.5s;
+}
+nav ul li:hover{
+  color: #fff;
+}
+nav ul li:hover::after{
+  top: 50%;
+  opacity: 1;
+}
